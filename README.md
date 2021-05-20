@@ -6,14 +6,14 @@
 
 ## Binary Search
 
-###Exercises:
+### Exercises:
 
-####Easy
+#### Easy
 
 - [] https://leetcode.com/problems/first-bad-version/
 - [] https://leetcode.com/problems/valid-perfect-square/
 
-####Medium
+#### Medium
 
 - [] https://leetcode.com/problems/single-element-in-a-sorted-array/
 - [] https://leetcode.com/problems/koko-eating-bananas/
