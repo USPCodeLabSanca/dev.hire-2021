@@ -10,8 +10,8 @@
 
 #### Easy
 
-- [ ] https://leetcode.com/problems/first-bad-version/
-- [ ] https://leetcode.com/problems/valid-perfect-square/
+- [x] https://leetcode.com/problems/first-bad-version/
+- [x] https://leetcode.com/problems/valid-perfect-square/
 
 #### Medium
 
