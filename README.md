@@ -29,14 +29,6 @@
 
 #### Easy
 
-#### Medium
-
-- [ ] https://leetcode.com/problems/validate-binary-search-tree/
-
-## Binary Search Exercises
-
-#### Easy
-
 - [X] https://leetcode.com/problems/first-bad-version/
 - [X] https://leetcode.com/problems/valid-perfect-square/
 
@@ -48,7 +40,7 @@
 - [X] https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 - [ ] https://leetcode.com/problems/find-right-interval/
 
-https://leetcode.com/problems/k-closest-points-to-origin/
-https://leetcode.com/problems/beautiful-array/
+- [ ] https://leetcode.com/problems/k-closest-points-to-origin/
+- [ ] https://leetcode.com/problems/beautiful-array/ 
 
 ## How to Contribute
