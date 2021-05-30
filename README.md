@@ -22,7 +22,7 @@
 - [ ] https://leetcode.com/problems/maximum-subarray/
 =======
 - [X] https://leetcode.com/problems/is-subsequence/
-- [ ] https://leetcode.com/problems/split-a-string-in-balanced-strings/
+- [X] https://leetcode.com/problems/split-a-string-in-balanced-strings/
 - [X] https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 >>>>>>> 52c83a7 (Update starter pack)
 
