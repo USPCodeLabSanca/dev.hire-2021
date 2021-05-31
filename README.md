@@ -16,15 +16,15 @@
 
 #### Easy
 
-- [ ] https://leetcode.com/problems/first-bad-version/
-- [ ] https://leetcode.com/problems/valid-perfect-square/
+- [X] https://leetcode.com/problems/first-bad-version/
+- [X] https://leetcode.com/problems/valid-perfect-square/
 
 #### Medium
 
 - [ ] https://leetcode.com/problems/single-element-in-a-sorted-array/
-- [ ] https://leetcode.com/problems/koko-eating-bananas/
-- [ ] https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
-- [ ] https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+- [X] https://leetcode.com/problems/koko-eating-bananas/
+- [X] https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
+- [X] https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 - [ ] https://leetcode.com/problems/find-right-interval/
 
 ## How to Contribute
