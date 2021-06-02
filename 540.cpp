@@ -3,34 +3,36 @@
 
 using namespace std;
 
- bool isPerfectSquare(int num) {
+ int singleNonDuplicate(vector<int>& nums) {
         
-    if(num == 1) return true;
+    if(nums.size() == 1) return nums[0];
     
-    long long int l=1,r=num,mid;
-    long long int square;
-
+    int l=0,r = nums.size() - 1, m;
+    
+    if(nums[l] != nums[l+1]) return nums[l];
+    
+    if(nums[r] != nums[r-1]) return nums[r];
     
     while(l <= r){
         
-        mid = l + (r-l)/2;
-        square = mid*mid; 
+        m = l + (r-l)/2;
         
-        if(square==num)
-            return true;
-        else if(square > num)
-            r = mid - 1;
-        else{
-            l = mid + 1;
+        if(nums[m] != nums[m-1] && nums[m] != nums[m+1]) return nums[m];
+        
+        if(nums[m-1] == nums[m] && (m)%2 == 0 || nums[m-1] != nums[m] && (m)%2 != 0){
+            
+            r = m-1;
+        }else{
+    
+            l = m+1; 
+        
         }
-        
-        
     }
     
-    return false;
+    
+    return -1;
     
 }
-
 
 int main(){
 
