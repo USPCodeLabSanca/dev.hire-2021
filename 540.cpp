@@ -19,7 +19,7 @@ using namespace std;
         
         if(nums[m] != nums[m-1] && nums[m] != nums[m+1]) return nums[m];
         
-        if(nums[m-1] == nums[m] && (m)%2 == 0 || nums[m-1] != nums[m] && (m)%2 != 0){
+        if(m%2 == 0 && nums[m-1] == nums[m] || (m)%2 != 0 && nums[m-1] != nums[m]){
             
             r = m-1;
         }else{
