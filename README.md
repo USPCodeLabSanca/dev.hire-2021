@@ -6,20 +6,26 @@
 
 ## Start Pack Exercises:
 
+#### Easy
+
 - [ ] https://leetcode.com/problems/is-subsequence/
 - [ ] https://leetcode.com/problems/split-a-string-in-balanced-strings/
 - [ ] https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+- [ ] https://leetcode.com/problems/maximum-subarray/
 
-https://leetcode.com/problems/maximum-subarray/
-https://leetcode.com/problems/search-a-2d-matrix-ii/
+#### Medium
+
+- [ ] https://leetcode.com/problems/search-a-2d-matrix-ii/
+- [ ] https://leetcode.com/problems/k-closest-points-to-origin/
+- [ ] https://leetcode.com/problems/beautiful-array/ (maybe this one shouldn't be here, be carefuly)
 
 ## Trees
 
 #### Easy
 
-- [ ] https://leetcode.com/problems/validate-binary-search-tree/
-
 #### Medium
+
+- [ ] https://leetcode.com/problems/validate-binary-search-tree/
 
 ## Binary Search Exercises
 
