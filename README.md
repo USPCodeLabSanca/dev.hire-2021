@@ -45,4 +45,13 @@ Documentation: https://www.notion.so/dev-hire-Binary-Search-4392a3ee05ba43ce9c39
 - [X] https://leetcode.com/problems/k-closest-points-to-origin/
 - [ ] https://leetcode.com/problems/beautiful-array/
 
+## Recursion
+
+- [ ] https://www.hackerrank.com/contests/ieee-excavation-1-0/challenges/knights-tour
+- [ ] https://practice.geeksforgeeks.org/problems/n-queen-problem0315/1
+- [ ] https://leetcode.com/problems/beautiful-arrangement/
+- [ ] https://leetcode.com/problems/subsets/
+- [ ] https://leetcode.com/problems/permutations/
+- [ ] https://leetcode.com/problems/letter-case-permutation/
+
 ## How to Contribute
