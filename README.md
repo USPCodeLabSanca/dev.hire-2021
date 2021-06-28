@@ -47,11 +47,14 @@ Documentation: https://www.notion.so/dev-hire-Binary-Search-4392a3ee05ba43ce9c39
 
 ## Recursion
 
-- [ ] https://www.hackerrank.com/contests/ieee-excavation-1-0/challenges/knights-tour
-- [ ] https://practice.geeksforgeeks.org/problems/n-queen-problem0315/1
+### Medium
+- [X] https://www.hackerrank.com/contests/ieee-excavation-1-0/challenges/knights-tour
 - [ ] https://leetcode.com/problems/beautiful-arrangement/
-- [ ] https://leetcode.com/problems/subsets/
-- [ ] https://leetcode.com/problems/permutations/
-- [ ] https://leetcode.com/problems/letter-case-permutation/
+- [X] https://leetcode.com/problems/subsets/
+- [X] https://leetcode.com/problems/permutations/
+- [X] https://leetcode.com/problems/letter-case-permutation/
+
+### Hard
+- [X] https://practice.geeksforgeeks.org/problems/n-queen-problem0315/1
 
 ## How to Contribute
