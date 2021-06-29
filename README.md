@@ -8,9 +8,9 @@
 
 #### Easy
 
-- [ ] https://leetcode.com/problems/is-subsequence/
-- [ ] https://leetcode.com/problems/split-a-string-in-balanced-strings/
-- [ ] https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+- [x] https://leetcode.com/problems/is-subsequence/
+- [x] https://leetcode.com/problems/split-a-string-in-balanced-strings/
+- [x] https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 - [ ] https://leetcode.com/problems/maximum-subarray/
 
 #### Medium
@@ -27,7 +27,6 @@
 
 - [ ] https://leetcode.com/problems/validate-binary-search-tree/
 
-
 ## Binary Search Exercises
 
 #### Easy
@@ -37,14 +36,11 @@
 
 #### Medium
 
-- [ ] https://leetcode.com/problems/single-element-in-a-sorted-array/ (trying)
+- [x] https://leetcode.com/problems/single-element-in-a-sorted-array/ (trying)
 - [x] https://leetcode.com/problems/koko-eating-bananas/
 - [x] https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
 - [ ] https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 - [ ] https://leetcode.com/problems/find-right-interval/
-
-https://leetcode.com/problems/k-closest-points-to-origin/
-https://leetcode.com/problems/beautiful-array/
 
 ## Recursion
 
