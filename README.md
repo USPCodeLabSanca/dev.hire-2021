@@ -42,4 +42,13 @@
 - [x] https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 - [x] https://leetcode.com/problems/find-right-interval/
 
+## Recursion
+
+- [ ] https://www.hackerrank.com/contests/ieee-excavation-1-0/challenges/knights-tour
+- [ ] https://practice.geeksforgeeks.org/problems/n-queen-problem0315/1
+- [ ] https://leetcode.com/problems/beautiful-arrangement/
+- [ ] https://leetcode.com/problems/subsets/
+- [ ] https://leetcode.com/problems/permutations/
+- [ ] https://leetcode.com/problems/letter-case-permutation/
+
 ## How to Contribute
