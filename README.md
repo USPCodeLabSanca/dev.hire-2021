@@ -49,7 +49,7 @@ Documentation: https://www.notion.so/dev-hire-Binary-Search-4392a3ee05ba43ce9c39
 
 ### Medium
 - [X] https://www.hackerrank.com/contests/ieee-excavation-1-0/challenges/knights-tour
-- [ ] https://leetcode.com/problems/beautiful-arrangement/
+- [X] https://leetcode.com/problems/beautiful-arrangement/
 - [X] https://leetcode.com/problems/subsets/
 - [X] https://leetcode.com/problems/permutations/
 - [X] https://leetcode.com/problems/letter-case-permutation/
