@@ -1,5 +1,5 @@
 '''
-Approach idea:
+Approach for my first idea:
 
     1 - We're always gonna 'abuse' the fact that each row and column are sorted in ascending order
     2 - If every row and column are sorted in ascending order, it's possible to prove that every diagonal 
@@ -23,9 +23,9 @@ Approach idea:
         
     5 - A 'invalid' position is a position that is out of bounds
     6 - Remember to always save in an auxiliar set the positions that we've already visited
-            
-    
+              
 '''
+
 
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
@@ -58,3 +58,45 @@ class Solution:
         rows = len(matrix)
         columns = len(matrix[0])
         return (row >= 0 and row < rows and column >= 0 and column < columns)
+
+
+'''
+Approach for a better idea:
+
+If we start at [0][0] position and its value is smaller than our target, then we need to either go down
+or go right to look for our target. So, we have 2 paths to search. And at each one of this paths, we could
+have anothe 2 paths to search, and so on. That's the efficiency problem of our first approach, increasing
+our recursion call stack even though we're keeping track of which positions we already visited.
+
+A better approach would consider to start, for example, at [0][lastColumn] position. This way, if its
+value is greater than our target, we only have one option: go left. If its value is smaller we also
+have only one option: go down. This way, we now have only one path to "explore" at each position if its
+value its different from our target and that can significantly increase the efficiency of our search.
+
+Not just that, but now, having only one path to explore at ay case, we can easily transform our recursion
+algorithm in a simple iterative algorithm, reducing the space complexicity. To make things even better, 
+since we're exploring only one path each time, there's no risk of revisiting a position again, and we don't
+need the auxiliar set anymore. This elegant solution abuses from the fact that every row and column are 
+sorted, has a time complexity of O(logN) average and space complexicity O(1).
+
+'''
+
+
+class Solution:
+    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+        
+        row = 0
+        column = len(matrix[0]) - 1
+        
+        while row < len(matrix) and column >= 0:
+            
+            currentValue = matrix[row][column]
+            
+            if currentValue == target:
+                return True
+            elif currentValue > target:
+                column -= 1
+            elif currentValue < target:
+                row += 1
+        
+        return False
